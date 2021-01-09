@@ -22,7 +22,7 @@ public class HelloWorldController {
 	//@RequestMapping(method = RequestMethod.GET, path = "/helloworld")
 	@GetMapping("/helloworld1")
 	public String helloWorld() {
-		return "Hello World Amit";
+		return "Hello World Amit amit2";
 	}
 	
 	@GetMapping("/helloworld-bean")
